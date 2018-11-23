@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "AppPreferences.h"
 
 @interface AppDelegate ()
 
@@ -15,6 +16,7 @@
 @implementation AppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
+    [[AppPreferences sharedAppPreferences] startReachabilityNotifier];
     // Insert code here to initialize your application
 }
 

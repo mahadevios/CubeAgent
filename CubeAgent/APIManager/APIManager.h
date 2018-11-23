@@ -39,6 +39,9 @@
 @property(nonatomic,strong)NSURLSessionUploadTask* uploadTask;
 @property(nonatomic,strong)NSURLSession* session;
 //-(void) validateUser:(NSString *) usernameString andPassword:(NSString *) passwordString;
+
+-(void) updateDeviceMacID:(NSString*) macID password:(NSString*) password username:(NSString* )username;
+
 -(NSString*)getMacId;//get macid of current device
 -(uint64_t)getFreeDiskspace;
 

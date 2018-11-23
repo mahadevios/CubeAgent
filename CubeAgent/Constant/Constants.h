@@ -25,6 +25,8 @@
 //#define  BASE_URL_PATH                        @"https://www.cubescribe.com/cubeagent_webapi/api"
 
 //#define  BASE_URL_PATH                        @"http://192.168.3.150:8081/CubeAPI/api"
+#define UPDATE_MAC_ID                         @"MacBook_UpdateMACID"
+
 #define  CHECK_DEVICE_REGISTRATION            @"encrdecr_MobileCheckDeviceRegistration"
 //DDCF3B2D-362B-4C81-8AB3-DD56D49E5365
 //#define  AUTHENTICATE_API                     @"UpdateMACID"

@@ -8,6 +8,7 @@
 
 #import "APIManager.h"
 #import "AppDelegate.h"
+#import "AppPreferences.h"
 //#import "UIDevice+Identifier.h"
 #import "NSData+AES256.h"
 #import "Constants.h"
@@ -52,13 +53,11 @@ static APIManager *singleton = nil;
 #pragma mark ValidateUser API
 #pragma mark
 
--(void) authenticateUserMacIDLocal:(NSString*) macID password:(NSString*) password username:(NSString* )username
+-(void) updateDeviceMacID:(NSString*) macID password:(NSString*) password username:(NSString* )username
 {
 //    if ([[AppPreferences sharedAppPreferences] isReachable])
 //    {
-        //        NSDictionary *dictionary1 = [[NSDictionary alloc] initWithObjectsAndKeys:macID,@"macid",password,@"pwd",username,@"username", nil];
-        //        NSMutableArray* array=[NSMutableArray arrayWithObjects:dictionary1, nil];
-        
+    
         NSError* error;
         NSDictionary *dictionary1 = [[NSDictionary alloc] initWithObjectsAndKeys:macID,@"macid",password,@"pwd",username,@"username", nil];
         
@@ -83,8 +82,41 @@ static APIManager *singleton = nil;
 //    }
 //    else
 //    {
-//        [[AppPreferences sharedAppPreferences] showAlertViewWithTitle:@"No internet connection!" withMessage:@"Please check your inernet connection and try again." withCancelText:nil withOkText:@"OK" withAlertTag:1000];
+//        
 //    }
+    
+}
+-(void) authenticateUserMacIDLocal:(NSString*) macID password:(NSString*) password username:(NSString* )username
+{
+    if ([[AppPreferences sharedAppPreferences] isReachable])
+    {
+        
+        NSError* error;
+        NSDictionary *dictionary1 = [[NSDictionary alloc] initWithObjectsAndKeys:macID,@"macid",password,@"pwd",username,@"username", nil];
+        
+        
+        NSData *jsonData = [NSJSONSerialization dataWithJSONObject:dictionary1
+                                                           options:0 // Pass 0 if you don't care about the readability of the generated string
+                                                             error:&error];
+        
+        
+        NSData *dataDesc = [jsonData AES256EncryptWithKey:SECRET_KEY];
+        
+        
+        
+        NSString* str2=[dataDesc base64EncodedStringWithOptions:0];
+        
+        NSDictionary *dictionary2 = [[NSDictionary alloc] initWithObjectsAndKeys:str2,@"encDevChkKey", nil];
+        
+        NSMutableArray* array=[NSMutableArray arrayWithObjects:dictionary2, nil];
+        
+        DownloadMetaDataJob *downloadmetadatajob=[[DownloadMetaDataJob alloc]initWithdownLoadEntityJobName:AUTHENTICATE_API withRequestParameter:array withResourcePath:AUTHENTICATE_API withHttpMethd:POST];
+        [downloadmetadatajob startMetaDataDownLoad];
+    }
+    else
+    {
+       
+    }
     
 }
 

@@ -25,8 +25,9 @@
 		841E1C8321A80EC6006F5C63 /* SBJson4StreamParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 841E1C7B21A80EC6006F5C63 /* SBJson4StreamParser.m */; };
 		841E1C8421A80EC6006F5C63 /* SBJson4Parser.m in Sources */ = {isa = PBXBuildFile; fileRef = 841E1C7D21A80EC6006F5C63 /* SBJson4Parser.m */; };
 		841E1C8821A80FA6006F5C63 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 841E1C8621A80FA6006F5C63 /* Reachability.m */; };
+		841E1C8C21A8127D006F5C63 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 841E1C8A21A8127D006F5C63 /* ViewController.m */; };
+		841E1C8F21A813CF006F5C63 /* AppPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = 841E1C8E21A813CF006F5C63 /* AppPreferences.m */; };
 		842B7DBE21A45D3500CD8BE3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 842B7DBD21A45D3500CD8BE3 /* AppDelegate.m */; };
-		842B7DC121A45D3500CD8BE3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 842B7DC021A45D3500CD8BE3 /* ViewController.m */; };
 		842B7DC321A45D3900CD8BE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 842B7DC221A45D3900CD8BE3 /* Assets.xcassets */; };
 		842B7DC621A45D3900CD8BE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842B7DC421A45D3900CD8BE3 /* Main.storyboard */; };
 		842B7DC921A45D3900CD8BE3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 842B7DC821A45D3900CD8BE3 /* main.m */; };
@@ -82,11 +83,13 @@
 		841E1C7D21A80EC6006F5C63 /* SBJson4Parser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJson4Parser.m; sourceTree = "<group>"; };
 		841E1C8621A80FA6006F5C63 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		841E1C8721A80FA6006F5C63 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		841E1C8A21A8127D006F5C63 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		841E1C8B21A8127D006F5C63 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		841E1C8D21A813CF006F5C63 /* AppPreferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppPreferences.h; sourceTree = "<group>"; };
+		841E1C8E21A813CF006F5C63 /* AppPreferences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppPreferences.m; sourceTree = "<group>"; };
 		842B7DB921A45D3500CD8BE3 /* CubeAgent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CubeAgent.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		842B7DBC21A45D3500CD8BE3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		842B7DBD21A45D3500CD8BE3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		842B7DBF21A45D3500CD8BE3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		842B7DC021A45D3500CD8BE3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		842B7DC221A45D3900CD8BE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		842B7DC521A45D3900CD8BE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		842B7DC721A45D3900CD8BE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -137,6 +140,8 @@
 		840A40B421A52E7C004D9E5B /* APIManager */ = {
 			isa = PBXGroup;
 			children = (
+				841E1C8D21A813CF006F5C63 /* AppPreferences.h */,
+				841E1C8E21A813CF006F5C63 /* AppPreferences.m */,
 				840A40B521A52E7D004D9E5B /* APIManager.h */,
 				840A40B621A52E7D004D9E5B /* APIManager.m */,
 				840A40BC21A531DE004D9E5B /* SharedSession.h */,
@@ -205,6 +210,15 @@
 			path = Reachability;
 			sourceTree = "<group>";
 		};
+		841E1C8921A8127D006F5C63 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				841E1C8A21A8127D006F5C63 /* ViewController.m */,
+				841E1C8B21A8127D006F5C63 /* ViewController.h */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		842B7DB021A45D3500CD8BE3 = {
 			isa = PBXGroup;
 			children = (
@@ -232,8 +246,7 @@
 			children = (
 				842B7DBC21A45D3500CD8BE3 /* AppDelegate.h */,
 				842B7DBD21A45D3500CD8BE3 /* AppDelegate.m */,
-				842B7DBF21A45D3500CD8BE3 /* ViewController.h */,
-				842B7DC021A45D3500CD8BE3 /* ViewController.m */,
+				841E1C8921A8127D006F5C63 /* ViewControllers */,
 				841E1BFB21A80D2A006F5C63 /* Libraries */,
 				840A40B821A52FEE004D9E5B /* Constant */,
 				840A40B421A52E7C004D9E5B /* APIManager */,
@@ -395,6 +408,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				841E1C8C21A8127D006F5C63 /* ViewController.m in Sources */,
 				840A414F21A57087004D9E5B /* APIManager.m in Sources */,
 				840A414E21A57040004D9E5B /* DownloadMetaDataJob.h in Sources */,
 				840A414D21A5702B004D9E5B /* SharedSession.h in Sources */,
@@ -402,7 +416,6 @@
 				840A414C21A56F36004D9E5B /* APIManager.h in Sources */,
 				840A40BA21A53190004D9E5B /* Constants.h in Sources */,
 				841E1C8021A80EC6006F5C63 /* SBJson4StreamTokeniser.m in Sources */,
-				842B7DC121A45D3500CD8BE3 /* ViewController.m in Sources */,
 				841E1C8121A80EC6006F5C63 /* SBJson4Writer.m in Sources */,
 				840A40BD21A531DE004D9E5B /* SharedSession.m in Sources */,
 				841E1C8421A80EC6006F5C63 /* SBJson4Parser.m in Sources */,
@@ -413,6 +426,7 @@
 				841E1C7F21A80EC6006F5C63 /* SBJson4StreamWriterState.m in Sources */,
 				8400A02221A691D100453D0A /* CubeAgent-Bridging-Header.swift in Sources */,
 				841E1C8821A80FA6006F5C63 /* Reachability.m in Sources */,
+				841E1C8F21A813CF006F5C63 /* AppPreferences.m in Sources */,
 				842B7DBE21A45D3500CD8BE3 /* AppDelegate.m in Sources */,
 				841E1C8221A80EC6006F5C63 /* SBJson4StreamParserState.m in Sources */,
 				841E1C8321A80EC6006F5C63 /* SBJson4StreamParser.m in Sources */,
