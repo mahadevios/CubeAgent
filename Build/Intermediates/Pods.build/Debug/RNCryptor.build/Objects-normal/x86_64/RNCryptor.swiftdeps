@@ -1,0 +1,949 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "RNCryptorType"
+- "RNCryptor"
+- "CryptorOperation"
+- "Engine"
+- "V3"
+- "OverflowingBuffer"
+provides-nominal:
+- "9RNCryptor0A4TypeP"
+- "9RNCryptorAAO"
+- "9RNCryptorAAO5ErrorO"
+- "9RNCryptorAAO9EncryptorC"
+- "9RNCryptorAAO9DecryptorC"
+- "9RNCryptorAAO8FormatV3C"
+- "9RNCryptorAAO11EncryptorV3C"
+- "9RNCryptorAAO11DecryptorV3C"
+- "9RNCryptor16CryptorOperationO"
+- "9RNCryptor6EngineC"
+- "9RNCryptor17OverflowingBufferC"
+provides-member:
+- ["9RNCryptor0A4TypeP", ""]
+- ["9RNCryptorAAO", ""]
+- ["9RNCryptorAAO5ErrorO", ""]
+- ["9RNCryptorAAO9EncryptorC", ""]
+- ["9RNCryptorAAO9DecryptorC", ""]
+- ["9RNCryptorAAO8FormatV3C", ""]
+- ["9RNCryptorAAO11EncryptorV3C", ""]
+- ["9RNCryptorAAO11DecryptorV3C", ""]
+- ["9RNCryptor16CryptorOperationO", ""]
+- ["9RNCryptor6EngineC", ""]
+- ["9RNCryptor17OverflowingBufferC", ""]
+- ["9RNCryptorAAO", "FormatV3"]
+- ["9RNCryptorAAO", "EncryptorV3"]
+- ["9RNCryptorAAO", "DecryptorV3"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "!="
+- !private "%"
+- "+"
+- !private "-"
+- !private "..."
+- !private "..<"
+- !private "<"
+- !private "<="
+- "=="
+- !private ">"
+- !private ">="
+- !private "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- !private "CCAlgorithm"
+- !private "CCCryptorCreate"
+- !private "CCCryptorFinal"
+- !private "CCCryptorGetOutputLength"
+- "CCCryptorRef"
+- !private "CCCryptorRelease"
+- !private "CCCryptorStatus"
+- !private "CCCryptorUpdate"
+- !private "CCHmacAlgorithm"
+- "CCHmacContext"
+- !private "CCHmacFinal"
+- !private "CCHmacInit"
+- !private "CCHmacUpdate"
+- !private "CCKeyDerivationPBKDF"
+- "CCOperation"
+- !private "CCOptions"
+- !private "CCPBKDFAlgorithm"
+- !private "CCPseudoRandomAlgorithm"
+- "CC_SHA256_DIGEST_LENGTH"
+- "Collection"
+- "Credential"
+- "CryptorOperation"
+- "Data"
+- "DecryptorEngineV3"
+- "Engine"
+- "FloatLiteralType"
+- "HMACV3"
+- "Int"
+- !private "Int8"
+- "IntegerLiteralType"
+- "OverflowingBuffer"
+- "RNCryptor"
+- "RNCryptorType"
+- !private "Range"
+- !private "SecRandomCopyBytes"
+- "String"
+- !private "StringLiteralType"
+- "Swift"
+- "TernaryPrecedence"
+- !private "UInt32"
+- "UInt8"
+- !private "UnicodeScalarType"
+- !private "UnsafeMutablePointer"
+- !private "UnsafePointer"
+- "V3"
+- "VersionedDecryptorType"
+- !private "^"
+- !private "assert"
+- !private "errSecSuccess"
+- !private "fatalError"
+- !private "isEqualInConsistentTime"
+- !private "kCCAlgorithmAES128"
+- "kCCBlockSizeAES128"
+- !private "kCCHmacAlgSHA256"
+- "kCCKeySizeAES256"
+- !private "kCCOptionPKCS7Padding"
+- !private "kCCPBKDF2"
+- !private "kCCPRFHmacAlgSHA1"
+- !private "kCCSuccess"
+- !private "kSecRandomDefault"
+- !private "malloc"
+- !private "precondition"
+- !private "|="
+- !private "~="
+depends-member:
+- !private ["Sa", "append"]
+- !private ["Sa", "isEmpty"]
+- !private ["Sa", "splitPassFail"]
+- !private ["s13ArrayProtocolP", "append"]
+- !private ["s13ArrayProtocolP", "isEmpty"]
+- !private ["s13ArrayProtocolP", "splitPassFail"]
+- !private ["SK", "Encoding"]
+- !private ["SK", "append"]
+- !private ["SK", "count"]
+- !private ["SK", "data"]
+- !private ["SK", "enumerated"]
+- ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["SK", "isEmpty"]
+- !private ["SK", "malloc"]
+- !private ["SK", "replaceSubrange"]
+- !private ["SK", "splitPassFail"]
+- !private ["SK", "subdata"]
+- !private ["SK", "subscript"]
+- !private ["SK", "withUnsafeBytes"]
+- !private ["SK", "withUnsafeMutableBytes"]
+- ["Sz", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["So13CCHmacContexta", "init"]
+- !private ["s7CVarArgP", "Encoding"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "data"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isEmpty"]
+- !private ["s7CVarArgP", "splitPassFail"]
+- ["Sl", "Bool"]
+- !private ["Sl", "Encoding"]
+- ["Sl", "Iterator"]
+- !private ["Sl", "append"]
+- !private ["Sl", "count"]
+- !private ["Sl", "data"]
+- !private ["Sl", "enumerated"]
+- ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["Sl", "isEmpty"]
+- !private ["Sl", "malloc"]
+- !private ["Sl", "replaceSubrange"]
+- !private ["Sl", "splitPassFail"]
+- !private ["Sl", "subdata"]
+- !private ["Sl", "subscript"]
+- !private ["Sl", "withUnsafeBytes"]
+- !private ["Sl", "withUnsafeMutableBytes"]
+- !private ["SL", "Encoding"]
+- !private ["SL", "data"]
+- ["SL", "init"]
+- !private ["SL", "init"]
+- ["9RNCryptor16CryptorOperationO", "RawValue"]
+- ["9RNCryptor16CryptorOperationO", "_Default_RawValue"]
+- ["9RNCryptor16CryptorOperationO", "decrypt"]
+- ["9RNCryptor16CryptorOperationO", "deinit"]
+- ["9RNCryptor16CryptorOperationO", "encrypt"]
+- ["9RNCryptor16CryptorOperationO", "hash"]
+- ["9RNCryptor16CryptorOperationO", "hashValue"]
+- ["9RNCryptor16CryptorOperationO", "init"]
+- ["9RNCryptor16CryptorOperationO", "rawValue"]
+- !private ["s28CustomDebugStringConvertibleP", "Encoding"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "data"]
+- !private ["s28CustomDebugStringConvertibleP", "enumerated"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "malloc"]
+- !private ["s28CustomDebugStringConvertibleP", "replaceSubrange"]
+- !private ["s28CustomDebugStringConvertibleP", "splitPassFail"]
+- !private ["s28CustomDebugStringConvertibleP", "subdata"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "withUnsafeBytes"]
+- !private ["s28CustomDebugStringConvertibleP", "withUnsafeMutableBytes"]
+- !private ["s29CustomPlaygroundQuickLookableP", "Encoding"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "data"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "Encoding"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "data"]
+- !private ["s17CustomReflectableP", "enumerated"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "isEmpty"]
+- !private ["s17CustomReflectableP", "malloc"]
+- !private ["s17CustomReflectableP", "replaceSubrange"]
+- !private ["s17CustomReflectableP", "splitPassFail"]
+- !private ["s17CustomReflectableP", "subdata"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "withUnsafeBytes"]
+- !private ["s17CustomReflectableP", "withUnsafeMutableBytes"]
+- !private ["s23CustomStringConvertibleP", "Encoding"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "data"]
+- !private ["s23CustomStringConvertibleP", "enumerated"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isEmpty"]
+- !private ["s23CustomStringConvertibleP", "malloc"]
+- !private ["s23CustomStringConvertibleP", "replaceSubrange"]
+- !private ["s23CustomStringConvertibleP", "splitPassFail"]
+- !private ["s23CustomStringConvertibleP", "subdata"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "utf8"]
+- !private ["s23CustomStringConvertibleP", "withUnsafeBytes"]
+- !private ["s23CustomStringConvertibleP", "withUnsafeMutableBytes"]
+- ["10Foundation4DataV", "Int"]
+- !private ["10Foundation4DataV", "append"]
+- !private ["10Foundation4DataV", "count"]
+- !private ["10Foundation4DataV", "enumerated"]
+- ["10Foundation4DataV", "init"]
+- !private ["10Foundation4DataV", "malloc"]
+- !private ["10Foundation4DataV", "replaceSubrange"]
+- !private ["10Foundation4DataV", "subdata"]
+- !private ["10Foundation4DataV", "subscript"]
+- !private ["10Foundation4DataV", "withUnsafeBytes"]
+- !private ["10Foundation4DataV", "withUnsafeMutableBytes"]
+- !private ["10Foundation4DataV11DeallocatorO", "free"]
+- !private ["Se", "Encoding"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "append"]
+- !private ["Se", "count"]
+- !private ["Se", "data"]
+- !private ["Se", "enumerated"]
+- ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["Se", "isEmpty"]
+- !private ["Se", "malloc"]
+- !private ["Se", "replaceSubrange"]
+- !private ["Se", "splitPassFail"]
+- !private ["Se", "subdata"]
+- !private ["Se", "subscript"]
+- !private ["Se", "withUnsafeBytes"]
+- !private ["Se", "withUnsafeMutableBytes"]
+- ["9RNCryptorAAO9DecryptorC", "Data"]
+- ["9RNCryptorAAO9DecryptorC", "DecryptorV3"]
+- !private ["9RNCryptorAAO9DecryptorC", "Error"]
+- ["9RNCryptorAAO9DecryptorC", "RNCryptorType"]
+- ["9RNCryptorAAO9DecryptorC", "String"]
+- ["9RNCryptorAAO9DecryptorC", "VersionedDecryptorType"]
+- !private ["9RNCryptorAAO9DecryptorC", "assert"]
+- !private ["9RNCryptorAAO9DecryptorC", "buffer"]
+- ["9RNCryptorAAO9DecryptorC", "decrypt"]
+- !private ["9RNCryptorAAO9DecryptorC", "decryptor"]
+- !private ["9RNCryptorAAO9DecryptorC", "decryptors"]
+- ["9RNCryptorAAO9DecryptorC", "deinit"]
+- ["9RNCryptorAAO9DecryptorC", "finalData"]
+- ["9RNCryptorAAO9DecryptorC", "init"]
+- !private ["9RNCryptorAAO9DecryptorC", "oneshot"]
+- !private ["9RNCryptorAAO9DecryptorC", "password"]
+- ["9RNCryptorAAO9DecryptorC", "update"]
+- ["9RNCryptorAAO11DecryptorV3C", "Bool"]
+- ["9RNCryptorAAO11DecryptorV3C", "Credential"]
+- ["9RNCryptorAAO11DecryptorV3C", "Data"]
+- ["9RNCryptorAAO11DecryptorV3C", "DecryptorEngineV3"]
+- !private ["9RNCryptorAAO11DecryptorV3C", "DecryptorV3"]
+- !private ["9RNCryptorAAO11DecryptorV3C", "Error"]
+- ["9RNCryptorAAO11DecryptorV3C", "Int"]
+- !private ["9RNCryptorAAO11DecryptorV3C", "Range"]
+- ["9RNCryptorAAO11DecryptorV3C", "String"]
+- !private ["9RNCryptorAAO11DecryptorV3C", "V3"]
+- !private ["9RNCryptorAAO11DecryptorV3C", "assert"]
+- !private ["9RNCryptorAAO11DecryptorV3C", "buffer"]
+- ["9RNCryptorAAO11DecryptorV3C", "canDecrypt"]
+- !private ["9RNCryptorAAO11DecryptorV3C", "credential"]
+- ["9RNCryptorAAO11DecryptorV3C", "decrypt"]
+- !private ["9RNCryptorAAO11DecryptorV3C", "decryptorEngine"]
+- ["9RNCryptorAAO11DecryptorV3C", "deinit"]
+- ["9RNCryptorAAO11DecryptorV3C", "finalData"]
+- ["9RNCryptorAAO11DecryptorV3C", "init"]
+- !private ["9RNCryptorAAO11DecryptorV3C", "makeEngine"]
+- !private ["9RNCryptorAAO11DecryptorV3C", "oneshot"]
+- ["9RNCryptorAAO11DecryptorV3C", "preambleSize"]
+- !private ["9RNCryptorAAO11DecryptorV3C", "precondition"]
+- !private ["9RNCryptorAAO11DecryptorV3C", "requiredHeaderSize"]
+- ["9RNCryptorAAO11DecryptorV3C", "update"]
+- !private ["SE", "Encoding"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "append"]
+- !private ["SE", "count"]
+- !private ["SE", "data"]
+- !private ["SE", "enumerated"]
+- ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SE", "isEmpty"]
+- !private ["SE", "malloc"]
+- !private ["SE", "replaceSubrange"]
+- !private ["SE", "splitPassFail"]
+- !private ["SE", "subdata"]
+- !private ["SE", "subscript"]
+- !private ["SE", "withUnsafeBytes"]
+- !private ["SE", "withUnsafeMutableBytes"]
+- !private ["SS10FoundationE8EncodingV", "utf8"]
+- ["9RNCryptorAAO9EncryptorC", "Data"]
+- ["9RNCryptorAAO9EncryptorC", "EncryptorV3"]
+- ["9RNCryptorAAO9EncryptorC", "String"]
+- ["9RNCryptorAAO9EncryptorC", "deinit"]
+- ["9RNCryptorAAO9EncryptorC", "encrypt"]
+- !private ["9RNCryptorAAO9EncryptorC", "encryptor"]
+- ["9RNCryptorAAO9EncryptorC", "finalData"]
+- ["9RNCryptorAAO9EncryptorC", "init"]
+- !private ["9RNCryptorAAO9EncryptorC", "precondition"]
+- ["9RNCryptorAAO9EncryptorC", "update"]
+- ["9RNCryptorAAO11EncryptorV3C", "Data"]
+- ["9RNCryptorAAO11EncryptorV3C", "Engine"]
+- ["9RNCryptorAAO11EncryptorV3C", "HMACV3"]
+- !private ["9RNCryptorAAO11EncryptorV3C", "RNCryptor"]
+- ["9RNCryptorAAO11EncryptorV3C", "String"]
+- !private ["9RNCryptorAAO11EncryptorV3C", "UInt8"]
+- !private ["9RNCryptorAAO11EncryptorV3C", "V3"]
+- ["9RNCryptorAAO11EncryptorV3C", "deinit"]
+- ["9RNCryptorAAO11EncryptorV3C", "encrypt"]
+- !private ["9RNCryptorAAO11EncryptorV3C", "engine"]
+- ["9RNCryptorAAO11EncryptorV3C", "finalData"]
+- !private ["9RNCryptorAAO11EncryptorV3C", "handle"]
+- !private ["9RNCryptorAAO11EncryptorV3C", "hmac"]
+- ["9RNCryptorAAO11EncryptorV3C", "init"]
+- !private ["9RNCryptorAAO11EncryptorV3C", "oneshot"]
+- !private ["9RNCryptorAAO11EncryptorV3C", "pendingHeader"]
+- !private ["9RNCryptorAAO11EncryptorV3C", "precondition"]
+- ["9RNCryptorAAO11EncryptorV3C", "update"]
+- !private ["9RNCryptor6EngineC", "CCAlgorithm"]
+- !private ["9RNCryptor6EngineC", "CCCryptorCreate"]
+- !private ["9RNCryptor6EngineC", "CCCryptorFinal"]
+- !private ["9RNCryptor6EngineC", "CCCryptorGetOutputLength"]
+- ["9RNCryptor6EngineC", "CCCryptorRef"]
+- !private ["9RNCryptor6EngineC", "CCCryptorRelease"]
+- !private ["9RNCryptor6EngineC", "CCCryptorStatus"]
+- !private ["9RNCryptor6EngineC", "CCCryptorUpdate"]
+- !private ["9RNCryptor6EngineC", "CCOptions"]
+- ["9RNCryptor6EngineC", "CryptorOperation"]
+- ["9RNCryptor6EngineC", "Data"]
+- ["9RNCryptor6EngineC", "Int"]
+- !private ["9RNCryptor6EngineC", "UInt8"]
+- !private ["9RNCryptor6EngineC", "UnsafePointer"]
+- !private ["9RNCryptor6EngineC", "assert"]
+- !private ["9RNCryptor6EngineC", "buffer"]
+- !private ["9RNCryptor6EngineC", "cryptor"]
+- ["9RNCryptor6EngineC", "deinit"]
+- ["9RNCryptor6EngineC", "finalData"]
+- ["9RNCryptor6EngineC", "init"]
+- !private ["9RNCryptor6EngineC", "kCCAlgorithmAES128"]
+- !private ["9RNCryptor6EngineC", "kCCOptionPKCS7Padding"]
+- !private ["9RNCryptor6EngineC", "kCCSuccess"]
+- ["9RNCryptor6EngineC", "sizeBuffer"]
+- ["9RNCryptor6EngineC", "update"]
+- !private ["SQ", "Encoding"]
+- ["SQ", "RawValue"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- ["SQ", "_code"]
+- ["SQ", "_domain"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- ["SQ", "_getEmbeddedNSError"]
+- ["SQ", "_userInfo"]
+- !private ["SQ", "append"]
+- !private ["SQ", "count"]
+- !private ["SQ", "data"]
+- !private ["SQ", "decrypt"]
+- !private ["SQ", "encrypt"]
+- !private ["SQ", "enumerated"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- !private ["SQ", "hmacMismatch"]
+- ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "invalidCredentialType"]
+- !private ["SQ", "isEmpty"]
+- !private ["SQ", "malloc"]
+- !private ["SQ", "messageTooShort"]
+- ["SQ", "rawValue"]
+- !private ["SQ", "replaceSubrange"]
+- !private ["SQ", "splitPassFail"]
+- !private ["SQ", "subdata"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "unknownHeader"]
+- !private ["SQ", "utf8"]
+- !private ["SQ", "withUnsafeBytes"]
+- !private ["SQ", "withUnsafeMutableBytes"]
+- ["9RNCryptorAAO5ErrorO", "RawValue"]
+- ["s5ErrorP", "RawValue"]
+- ["s5ErrorP", ""]
+- ["9RNCryptorAAO5ErrorO", "_Default_RawValue"]
+- ["s5ErrorP", "_Default_RawValue"]
+- ["9RNCryptorAAO5ErrorO", "_code"]
+- ["s5ErrorP", "_code"]
+- ["9RNCryptorAAO5ErrorO", "_domain"]
+- ["s5ErrorP", "_domain"]
+- ["9RNCryptorAAO5ErrorO", "_getEmbeddedNSError"]
+- ["s5ErrorP", "_getEmbeddedNSError"]
+- ["9RNCryptorAAO5ErrorO", "_userInfo"]
+- ["s5ErrorP", "_userInfo"]
+- ["9RNCryptorAAO5ErrorO", "deinit"]
+- ["9RNCryptorAAO5ErrorO", "hash"]
+- ["s5ErrorP", "hash"]
+- ["9RNCryptorAAO5ErrorO", "hashValue"]
+- ["s5ErrorP", "hashValue"]
+- ["9RNCryptorAAO5ErrorO", "hmacMismatch"]
+- !private ["s5ErrorP", "hmacMismatch"]
+- ["9RNCryptorAAO5ErrorO", "init"]
+- ["s5ErrorP", "init"]
+- ["9RNCryptorAAO5ErrorO", "invalidCredentialType"]
+- !private ["s5ErrorP", "invalidCredentialType"]
+- ["9RNCryptorAAO5ErrorO", "memoryFailure"]
+- ["9RNCryptorAAO5ErrorO", "messageTooShort"]
+- !private ["s5ErrorP", "messageTooShort"]
+- ["9RNCryptorAAO5ErrorO", "rawValue"]
+- ["s5ErrorP", "rawValue"]
+- ["9RNCryptorAAO5ErrorO", "unknownHeader"]
+- !private ["s5ErrorP", "unknownHeader"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "isEmpty"]
+- !private ["s25ExpressibleByArrayLiteralP", "splitPassFail"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "Encoding"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "data"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "Encoding"]
+- !private ["s26ExpressibleByStringLiteralP", "data"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "Encoding"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "data"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s17FixedWidthIntegerP", "init"]
+- !private ["9RNCryptorAAO8FormatV3C", "CCCryptorStatus"]
+- !private ["9RNCryptorAAO8FormatV3C", "CCKeyDerivationPBKDF"]
+- !private ["9RNCryptorAAO8FormatV3C", "CCPBKDFAlgorithm"]
+- !private ["9RNCryptorAAO8FormatV3C", "CCPseudoRandomAlgorithm"]
+- ["9RNCryptorAAO8FormatV3C", "CC_SHA256_DIGEST_LENGTH"]
+- ["9RNCryptorAAO8FormatV3C", "Data"]
+- ["9RNCryptorAAO8FormatV3C", "Int"]
+- !private ["9RNCryptorAAO8FormatV3C", "Int8"]
+- ["9RNCryptorAAO8FormatV3C", "String"]
+- !private ["9RNCryptorAAO8FormatV3C", "UInt32"]
+- ["9RNCryptorAAO8FormatV3C", "UInt8"]
+- !private ["9RNCryptorAAO8FormatV3C", "UnsafeMutablePointer"]
+- !private ["9RNCryptorAAO8FormatV3C", "UnsafePointer"]
+- !private ["9RNCryptorAAO8FormatV3C", "fatalError"]
+- ["9RNCryptorAAO8FormatV3C", "formatVersion"]
+- ["9RNCryptorAAO8FormatV3C", "hmacSize"]
+- ["9RNCryptorAAO8FormatV3C", "init"]
+- ["9RNCryptorAAO8FormatV3C", "ivSize"]
+- ["9RNCryptorAAO8FormatV3C", "kCCBlockSizeAES128"]
+- ["9RNCryptorAAO8FormatV3C", "kCCKeySizeAES256"]
+- !private ["9RNCryptorAAO8FormatV3C", "kCCPBKDF2"]
+- !private ["9RNCryptorAAO8FormatV3C", "kCCPRFHmacAlgSHA1"]
+- !private ["9RNCryptorAAO8FormatV3C", "kCCSuccess"]
+- ["9RNCryptorAAO8FormatV3C", "keyHeaderSize"]
+- ["9RNCryptorAAO8FormatV3C", "keySize"]
+- ["9RNCryptorAAO8FormatV3C", "makeKey"]
+- ["9RNCryptorAAO8FormatV3C", "passwordHeaderSize"]
+- ["9RNCryptorAAO8FormatV3C", "saltSize"]
+- !private ["SH", "Encoding"]
+- ["SH", "RawValue"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- ["SH", "_code"]
+- ["SH", "_domain"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- ["SH", "_getEmbeddedNSError"]
+- ["SH", "_userInfo"]
+- !private ["SH", "append"]
+- !private ["SH", "count"]
+- !private ["SH", "data"]
+- !private ["SH", "decrypt"]
+- !private ["SH", "encrypt"]
+- !private ["SH", "enumerated"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- !private ["SH", "hmacMismatch"]
+- ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "invalidCredentialType"]
+- !private ["SH", "isEmpty"]
+- !private ["SH", "malloc"]
+- !private ["SH", "messageTooShort"]
+- ["SH", "rawValue"]
+- !private ["SH", "replaceSubrange"]
+- !private ["SH", "splitPassFail"]
+- !private ["SH", "subdata"]
+- !private ["SH", "subscript"]
+- !private ["SH", "unknownHeader"]
+- !private ["SH", "utf8"]
+- !private ["SH", "withUnsafeBytes"]
+- !private ["SH", "withUnsafeMutableBytes"]
+- !private ["s6HasherV", "combine"]
+- ["Si", "init"]
+- !private ["s5Int32V", "init"]
+- !private ["St", "Element"]
+- !private ["s25LosslessStringConvertibleP", "Encoding"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "data"]
+- ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "Encoding"]
+- !private ["s10MirrorPathP", "data"]
+- ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["SM", "append"]
+- !private ["SM", "count"]
+- !private ["SM", "enumerated"]
+- ["SM", "init"]
+- !private ["SM", "isEmpty"]
+- !private ["SM", "malloc"]
+- !private ["SM", "replaceSubrange"]
+- !private ["SM", "splitPassFail"]
+- !private ["SM", "subdata"]
+- !private ["SM", "subscript"]
+- !private ["SM", "withUnsafeBytes"]
+- !private ["SM", "withUnsafeMutableBytes"]
+- !private ["So8NSCodingP", "data"]
+- !private ["So9NSCopyingP", "data"]
+- !private ["So21NSItemProviderReadingP", "data"]
+- !private ["So21NSItemProviderWritingP", "data"]
+- !private ["So16NSMutableCopyingP", "data"]
+- !private ["So8NSObjectC", "data"]
+- !private ["So8NSObjectP", "data"]
+- !private ["So19NSPasteboardReadingP", "data"]
+- !private ["So19NSPasteboardWritingP", "data"]
+- !private ["So14NSSecureCodingP", "data"]
+- !private ["So8NSStringC", "data"]
+- ["Sj", "init"]
+- ["9RNCryptor17OverflowingBufferC", "Data"]
+- ["9RNCryptor17OverflowingBufferC", "Int"]
+- !private ["9RNCryptor17OverflowingBufferC", "assert"]
+- !private ["9RNCryptor17OverflowingBufferC", "buffer"]
+- ["9RNCryptor17OverflowingBufferC", "capacity"]
+- ["9RNCryptor17OverflowingBufferC", "finalData"]
+- ["9RNCryptor17OverflowingBufferC", "init"]
+- !private ["9RNCryptor17OverflowingBufferC", "sendAll"]
+- !private ["9RNCryptor17OverflowingBufferC", "sendSome"]
+- ["9RNCryptor17OverflowingBufferC", "update"]
+- ["9RNCryptorAAO", "Bool"]
+- !private ["9RNCryptorAAO", "CCCryptorStatus"]
+- !private ["9RNCryptorAAO", "CCKeyDerivationPBKDF"]
+- !private ["9RNCryptorAAO", "CCPBKDFAlgorithm"]
+- !private ["9RNCryptorAAO", "CCPseudoRandomAlgorithm"]
+- ["9RNCryptorAAO", "CC_SHA256_DIGEST_LENGTH"]
+- ["9RNCryptorAAO", "Credential"]
+- ["9RNCryptorAAO", "Data"]
+- ["9RNCryptorAAO", "Decryptor"]
+- ["9RNCryptorAAO", "DecryptorEngineV3"]
+- ["9RNCryptorAAO", "DecryptorV3"]
+- ["9RNCryptorAAO", "Encryptor"]
+- ["9RNCryptorAAO", "EncryptorV3"]
+- ["9RNCryptorAAO", "Engine"]
+- ["9RNCryptorAAO", "Error"]
+- ["9RNCryptorAAO", "FormatV3"]
+- ["9RNCryptorAAO", "HMACV3"]
+- ["9RNCryptorAAO", "Int"]
+- !private ["9RNCryptorAAO", "Int8"]
+- !private ["9RNCryptorAAO", "RNCryptor"]
+- ["9RNCryptorAAO", "RNCryptorType"]
+- !private ["9RNCryptorAAO", "Range"]
+- !private ["9RNCryptorAAO", "SecRandomCopyBytes"]
+- ["9RNCryptorAAO", "String"]
+- ["9RNCryptorAAO", "Swift"]
+- !private ["9RNCryptorAAO", "UInt32"]
+- ["9RNCryptorAAO", "UInt8"]
+- !private ["9RNCryptorAAO", "UnsafeMutablePointer"]
+- !private ["9RNCryptorAAO", "UnsafePointer"]
+- !private ["9RNCryptorAAO", "V3"]
+- ["9RNCryptorAAO", "VersionedDecryptorType"]
+- !private ["9RNCryptorAAO", "assert"]
+- ["9RNCryptorAAO", "decrypt"]
+- ["9RNCryptorAAO", "encrypt"]
+- !private ["9RNCryptorAAO", "errSecSuccess"]
+- !private ["9RNCryptorAAO", "fatalError"]
+- ["9RNCryptorAAO", "kCCBlockSizeAES128"]
+- ["9RNCryptorAAO", "kCCKeySizeAES256"]
+- !private ["9RNCryptorAAO", "kCCPBKDF2"]
+- !private ["9RNCryptorAAO", "kCCPRFHmacAlgSHA1"]
+- !private ["9RNCryptorAAO", "kCCSuccess"]
+- !private ["9RNCryptorAAO", "kSecRandomDefault"]
+- !private ["9RNCryptorAAO", "precondition"]
+- ["9RNCryptorAAO", "randomData"]
+- ["9RNCryptor0A4TypeP", "Bool"]
+- ["9RNCryptor0A4TypeP", "Data"]
+- !private ["9RNCryptor0A4TypeP", "DecryptorEngineV3"]
+- ["9RNCryptor0A4TypeP", "DecryptorV3"]
+- !private ["9RNCryptor0A4TypeP", "EncryptorV3"]
+- !private ["9RNCryptor0A4TypeP", "Engine"]
+- !private ["9RNCryptor0A4TypeP", "Error"]
+- !private ["9RNCryptor0A4TypeP", "HMACV3"]
+- ["9RNCryptor0A4TypeP", "Int"]
+- !private ["9RNCryptor0A4TypeP", "RNCryptor"]
+- !private ["9RNCryptor0A4TypeP", "Range"]
+- ["9RNCryptor0A4TypeP", "String"]
+- !private ["9RNCryptor0A4TypeP", "UInt8"]
+- !private ["9RNCryptor0A4TypeP", "V3"]
+- ["9RNCryptor0A4TypeP", ""]
+- !private ["9RNCryptor0A4TypeP", "assert"]
+- !private ["9RNCryptor0A4TypeP", "buffer"]
+- ["9RNCryptor0A4TypeP", "canDecrypt"]
+- !private ["9RNCryptor0A4TypeP", "credential"]
+- !private ["9RNCryptor0A4TypeP", "decrypt"]
+- !private ["9RNCryptor0A4TypeP", "decryptor"]
+- !private ["9RNCryptor0A4TypeP", "decryptorEngine"]
+- !private ["9RNCryptor0A4TypeP", "decryptors"]
+- !private ["9RNCryptor0A4TypeP", "encrypt"]
+- !private ["9RNCryptor0A4TypeP", "encryptor"]
+- !private ["9RNCryptor0A4TypeP", "engine"]
+- ["9RNCryptor0A4TypeP", "finalData"]
+- !private ["9RNCryptor0A4TypeP", "handle"]
+- !private ["9RNCryptor0A4TypeP", "hmac"]
+- ["9RNCryptor0A4TypeP", "init"]
+- !private ["9RNCryptor0A4TypeP", "init"]
+- !private ["9RNCryptor0A4TypeP", "makeEngine"]
+- !private ["9RNCryptor0A4TypeP", "oneshot"]
+- !private ["9RNCryptor0A4TypeP", "password"]
+- !private ["9RNCryptor0A4TypeP", "pendingHeader"]
+- ["9RNCryptor0A4TypeP", "preambleSize"]
+- !private ["9RNCryptor0A4TypeP", "precondition"]
+- !private ["9RNCryptor0A4TypeP", "requiredHeaderSize"]
+- ["9RNCryptor0A4TypeP", "update"]
+- !private ["Sk", "append"]
+- !private ["Sk", "count"]
+- !private ["Sk", "enumerated"]
+- ["Sk", "init"]
+- !private ["Sk", "isEmpty"]
+- !private ["Sk", "malloc"]
+- !private ["Sk", "replaceSubrange"]
+- !private ["Sk", "splitPassFail"]
+- !private ["Sk", "subdata"]
+- !private ["Sk", "subscript"]
+- !private ["Sk", "withUnsafeBytes"]
+- !private ["Sk", "withUnsafeMutableBytes"]
+- !private ["Sn", "init"]
+- !private ["SX", "init"]
+- !private ["Sm", "Encoding"]
+- !private ["Sm", "append"]
+- !private ["Sm", "count"]
+- !private ["Sm", "data"]
+- !private ["Sm", "enumerated"]
+- ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["Sm", "isEmpty"]
+- !private ["Sm", "malloc"]
+- !private ["Sm", "replaceSubrange"]
+- !private ["Sm", "splitPassFail"]
+- !private ["Sm", "subdata"]
+- !private ["Sm", "subscript"]
+- !private ["Sm", "withUnsafeBytes"]
+- !private ["Sm", "withUnsafeMutableBytes"]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- ["SY", "_code"]
+- ["SY", "_domain"]
+- ["SY", "_getEmbeddedNSError"]
+- ["SY", "_userInfo"]
+- !private ["SY", "decrypt"]
+- !private ["SY", "encrypt"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- !private ["SY", "hmacMismatch"]
+- ["SY", "init"]
+- !private ["SY", "invalidCredentialType"]
+- !private ["SY", "messageTooShort"]
+- ["SY", "rawValue"]
+- !private ["SY", "unknownHeader"]
+- !private ["SY", "utf8"]
+- !private ["10Foundation20ReferenceConvertibleP", "append"]
+- !private ["10Foundation20ReferenceConvertibleP", "count"]
+- !private ["10Foundation20ReferenceConvertibleP", "enumerated"]
+- ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "malloc"]
+- !private ["10Foundation20ReferenceConvertibleP", "replaceSubrange"]
+- !private ["10Foundation20ReferenceConvertibleP", "subdata"]
+- !private ["10Foundation20ReferenceConvertibleP", "subscript"]
+- !private ["10Foundation20ReferenceConvertibleP", "withUnsafeBytes"]
+- !private ["10Foundation20ReferenceConvertibleP", "withUnsafeMutableBytes"]
+- ["ST", "Bool"]
+- !private ["ST", "Encoding"]
+- ["ST", "Iterator"]
+- !private ["ST", "append"]
+- !private ["ST", "count"]
+- !private ["ST", "data"]
+- !private ["ST", "enumerated"]
+- ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["ST", "isEmpty"]
+- !private ["ST", "malloc"]
+- !private ["ST", "replaceSubrange"]
+- !private ["ST", "splitPassFail"]
+- !private ["ST", "subdata"]
+- !private ["ST", "subscript"]
+- !private ["ST", "withUnsafeBytes"]
+- !private ["ST", "withUnsafeMutableBytes"]
+- ["SZ", "init"]
+- ["s13SignedNumericP", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s12StaticStringV", "init"]
+- ["Sx", "init"]
+- !private ["SS", "Encoding"]
+- !private ["SS", "data"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "Encoding"]
+- !private ["Sy", "data"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "Encoding"]
+- !private ["s16TextOutputStreamP", "data"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "Encoding"]
+- !private ["s20TextOutputStreamableP", "data"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s6UInt32V", "init"]
+- ["s5UInt8V", "init"]
+- ["SU", "init"]
+- ["s18_BitwiseOperationsP", "init"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "isEmpty"]
+- !private ["s24_DestructorSafeContainerP", "splitPassFail"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "Encoding"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "data"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "Encoding"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "data"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "Encoding"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "data"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "Encoding"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "data"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "Encoding"]
+- !private ["s33_ExpressibleByStringInterpolationP", "data"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "data"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "isEmpty"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "splitPassFail"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "data"]
+- !private ["s21_ObjectiveCBridgeableP", "Encoding"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "data"]
+- !private ["s21_ObjectiveCBridgeableP", "enumerated"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "isEmpty"]
+- !private ["s21_ObjectiveCBridgeableP", "malloc"]
+- !private ["s21_ObjectiveCBridgeableP", "replaceSubrange"]
+- !private ["s21_ObjectiveCBridgeableP", "splitPassFail"]
+- !private ["s21_ObjectiveCBridgeableP", "subdata"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "withUnsafeBytes"]
+- !private ["s21_ObjectiveCBridgeableP", "withUnsafeMutableBytes"]
+- ["s14_StringElementP", "init"]
+- !private ["s16_SwiftStringViewP", "Encoding"]
+- !private ["s16_SwiftStringViewP", "data"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "Sa"
+- !private "s13ArrayProtocolP"
+- "SK"
+- "Sz"
+- !private "Sb"
+- "So13CCHmacContexta"
+- "s7CVarArgP"
+- "Sl"
+- "SL"
+- "9RNCryptor16CryptorOperationO"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "10Foundation4DataV"
+- !private "10Foundation4DataV11DeallocatorO"
+- "Se"
+- "9RNCryptorAAO9DecryptorC"
+- "9RNCryptorAAO11DecryptorV3C"
+- "SE"
+- !private "SS10FoundationE8EncodingV"
+- "9RNCryptorAAO9EncryptorC"
+- "9RNCryptorAAO11EncryptorV3C"
+- "9RNCryptor6EngineC"
+- "SQ"
+- "9RNCryptorAAO5ErrorO"
+- "s5ErrorP"
+- "9RNCryptorAAO5ErrorO"
+- "s5ErrorP"
+- "9RNCryptorAAO5ErrorO"
+- "s5ErrorP"
+- "9RNCryptorAAO5ErrorO"
+- "s5ErrorP"
+- "9RNCryptorAAO5ErrorO"
+- "s5ErrorP"
+- "9RNCryptorAAO5ErrorO"
+- "s5ErrorP"
+- "9RNCryptorAAO5ErrorO"
+- "s5ErrorP"
+- "9RNCryptorAAO5ErrorO"
+- "s5ErrorP"
+- "9RNCryptorAAO5ErrorO"
+- !private "s5ErrorP"
+- "9RNCryptorAAO5ErrorO"
+- "s5ErrorP"
+- "9RNCryptorAAO5ErrorO"
+- !private "s5ErrorP"
+- "9RNCryptorAAO5ErrorO"
+- !private "s5ErrorP"
+- "9RNCryptorAAO5ErrorO"
+- "s5ErrorP"
+- "9RNCryptorAAO5ErrorO"
+- !private "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s27ExpressibleByIntegerLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s17FixedWidthIntegerP"
+- "9RNCryptorAAO8FormatV3C"
+- "SH"
+- !private "s6HasherV"
+- "Si"
+- !private "s5Int32V"
+- !private "St"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- "SM"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So19NSPasteboardReadingP"
+- !private "So19NSPasteboardWritingP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- "Sj"
+- "9RNCryptor17OverflowingBufferC"
+- "9RNCryptorAAO"
+- "9RNCryptor0A4TypeP"
+- "Sk"
+- !private "Sn"
+- !private "SX"
+- "Sm"
+- "SY"
+- "10Foundation20ReferenceConvertibleP"
+- "ST"
+- "SZ"
+- "s13SignedNumericP"
+- !private "s12StaticStringV"
+- "Sx"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "s6UInt32V"
+- "s5UInt8V"
+- "SU"
+- "s18_BitwiseOperationsP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s14_StringElementP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Users/admin/Downloads/Xcode 3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Users/admin/Downloads/Xcode 3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/XPC.swiftmodule"
+- "/Users/admin/Downloads/Xcode 3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/admin/Downloads/Xcode 3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreData.swiftmodule"
+- "/Users/admin/Downloads/Xcode 3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreImage.swiftmodule"
+- "/Users/admin/Downloads/Xcode 3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/QuartzCore.swiftmodule"
+- "/Users/admin/Downloads/Xcode 3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Users/admin/Downloads/Xcode 3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Metal.swiftmodule"
+- "/Users/admin/Downloads/Xcode 3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Users/admin/Downloads/Xcode 3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Users/admin/Downloads/Xcode 3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreFoundation.swiftmodule"
+- "/Users/admin/Downloads/Xcode 3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/admin/Downloads/Xcode 3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Users/admin/Downloads/Xcode 3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Users/admin/Downloads/Xcode 3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/AppKit.swiftmodule"
+- "/Users/admin/Downloads/Xcode 3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Work/CubeAgent/Pods/Headers/Public/RNCryptor/RNCryptor-umbrella.h"
+- "/Work/CubeAgent/Pods/Headers/Public/RNCryptor/RNCryptor.h"
+- "/Work/CubeAgent/Pods/Headers/Public/RNCryptor/RNCryptor.modulemap"
+- "/Users/admin/Downloads/Xcode 3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/xpc/XPC.apinotes"
+- "/Users/admin/Downloads/Xcode 3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Users/admin/Downloads/Xcode 3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Users/admin/Downloads/Xcode 3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Users/admin/Downloads/Xcode 3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Users/admin/Downloads/Xcode 3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Users/admin/Downloads/Xcode 3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
+- "/Users/admin/Downloads/Xcode 3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Users/admin/Downloads/Xcode 3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Users/admin/Downloads/Xcode 3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Users/admin/Downloads/Xcode 3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
+- "/Users/admin/Downloads/Xcode 3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Users/admin/Downloads/Xcode 3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "32913011580d97c711c9550fb75dd545"

@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "745d2a263f5be26af161964badf2d1f4"
+build_time: [1542880308, 437882000]
+inputs:
+  "/Work/CubeAgent/CubeAgent-Bridging-Header.swift": [1542880307, 0]

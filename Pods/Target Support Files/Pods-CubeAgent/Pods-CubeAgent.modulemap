@@ -1,0 +1,6 @@
+module Pods_CubeAgent {
+  umbrella header "Pods-CubeAgent-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,12 @@
+module CryptoSwift {
+  umbrella header "CryptoSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+
+module CryptoSwift.Swift {
+  header "/Work/CubeAgent/Build/Products/Debug/CryptoSwift/Swift Compatibility Header/CryptoSwift-Swift.h"
+  requires objc
+}
