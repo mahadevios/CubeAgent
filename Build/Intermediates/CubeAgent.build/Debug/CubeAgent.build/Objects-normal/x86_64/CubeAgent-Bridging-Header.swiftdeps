@@ -19,7 +19,6 @@ depends-external:
 - "/Users/admin/Downloads/Xcode 3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
 - "/Users/admin/Downloads/Xcode 3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
 - "/Work/CubeAgent/CubeAgent-Bridging-Header.h"
-- "/Work/CubeAgent/Build/Products/Debug/CryptoSwift/CryptoSwift.modulemap"
 - "/Users/admin/Downloads/Xcode 3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
 - "/Users/admin/Downloads/Xcode 3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
 - "/Users/admin/Downloads/Xcode 3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"

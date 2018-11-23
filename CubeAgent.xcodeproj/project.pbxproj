@@ -7,26 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		77DB1E920EDACF396C5B10B3 /* libPods-CubeAgent.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EA477160C46591C33F748F9 /* libPods-CubeAgent.a */; };
 		8400A02221A691D100453D0A /* CubeAgent-Bridging-Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8400A02121A691D100453D0A /* CubeAgent-Bridging-Header.swift */; };
 		840A40B321A52B16004D9E5B /* NSData+AES256.m in Sources */ = {isa = PBXBuildFile; fileRef = 840A40B121A52B16004D9E5B /* NSData+AES256.m */; };
 		840A40BA21A53190004D9E5B /* Constants.h in Sources */ = {isa = PBXBuildFile; fileRef = 840A40B921A52FEE004D9E5B /* Constants.h */; };
 		840A40BD21A531DE004D9E5B /* SharedSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 840A40BB21A531DD004D9E5B /* SharedSession.m */; };
 		840A40C021A535EC004D9E5B /* DownloadMetaDataJob.m in Sources */ = {isa = PBXBuildFile; fileRef = 840A40BE21A535EC004D9E5B /* DownloadMetaDataJob.m */; };
-		840A414221A53725004D9E5B /* SBJson4StreamParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 840A410721A53725004D9E5B /* SBJson4StreamParser.m */; };
-		840A414321A53725004D9E5B /* SBJson4StreamTokeniser.m in Sources */ = {isa = PBXBuildFile; fileRef = 840A410821A53725004D9E5B /* SBJson4StreamTokeniser.m */; };
-		840A414421A53725004D9E5B /* SBJson4StreamParserState.m in Sources */ = {isa = PBXBuildFile; fileRef = 840A410921A53725004D9E5B /* SBJson4StreamParserState.m */; };
-		840A414521A53725004D9E5B /* SBJson4StreamWriterState.m in Sources */ = {isa = PBXBuildFile; fileRef = 840A410A21A53725004D9E5B /* SBJson4StreamWriterState.m */; };
-		840A414621A53725004D9E5B /* SBJson4Writer.m in Sources */ = {isa = PBXBuildFile; fileRef = 840A410B21A53725004D9E5B /* SBJson4Writer.m */; };
-		840A414721A53725004D9E5B /* SBJson4Parser.m in Sources */ = {isa = PBXBuildFile; fileRef = 840A410F21A53725004D9E5B /* SBJson4Parser.m */; };
-		840A414821A53725004D9E5B /* SBJson4StreamWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 840A411221A53725004D9E5B /* SBJson4StreamWriter.m */; };
-		840A414B21A5387A004D9E5B /* SBJson4.h in Sources */ = {isa = PBXBuildFile; fileRef = 840A410D21A53725004D9E5B /* SBJson4.h */; };
 		840A414C21A56F36004D9E5B /* APIManager.h in Sources */ = {isa = PBXBuildFile; fileRef = 840A40B521A52E7D004D9E5B /* APIManager.h */; };
 		840A414D21A5702B004D9E5B /* SharedSession.h in Sources */ = {isa = PBXBuildFile; fileRef = 840A40BC21A531DE004D9E5B /* SharedSession.h */; };
 		840A414E21A57040004D9E5B /* DownloadMetaDataJob.h in Sources */ = {isa = PBXBuildFile; fileRef = 840A40BF21A535EC004D9E5B /* DownloadMetaDataJob.h */; };
 		840A414F21A57087004D9E5B /* APIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 840A40B621A52E7D004D9E5B /* APIManager.m */; };
-		840A415321A570F2004D9E5B /* Keychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 840A415221A570F2004D9E5B /* Keychain.m */; };
-		840A415421A5710C004D9E5B /* Keychain.h in Sources */ = {isa = PBXBuildFile; fileRef = 840A415121A570F2004D9E5B /* Keychain.h */; };
+		841E1C6D21A80D2B006F5C63 /* Keychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 841E1C4221A80D2B006F5C63 /* Keychain.m */; };
+		841E1C7E21A80EC6006F5C63 /* SBJson4StreamWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 841E1C7121A80EC5006F5C63 /* SBJson4StreamWriter.m */; };
+		841E1C7F21A80EC6006F5C63 /* SBJson4StreamWriterState.m in Sources */ = {isa = PBXBuildFile; fileRef = 841E1C7421A80EC6006F5C63 /* SBJson4StreamWriterState.m */; };
+		841E1C8021A80EC6006F5C63 /* SBJson4StreamTokeniser.m in Sources */ = {isa = PBXBuildFile; fileRef = 841E1C7721A80EC6006F5C63 /* SBJson4StreamTokeniser.m */; };
+		841E1C8121A80EC6006F5C63 /* SBJson4Writer.m in Sources */ = {isa = PBXBuildFile; fileRef = 841E1C7821A80EC6006F5C63 /* SBJson4Writer.m */; };
+		841E1C8221A80EC6006F5C63 /* SBJson4StreamParserState.m in Sources */ = {isa = PBXBuildFile; fileRef = 841E1C7921A80EC6006F5C63 /* SBJson4StreamParserState.m */; };
+		841E1C8321A80EC6006F5C63 /* SBJson4StreamParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 841E1C7B21A80EC6006F5C63 /* SBJson4StreamParser.m */; };
+		841E1C8421A80EC6006F5C63 /* SBJson4Parser.m in Sources */ = {isa = PBXBuildFile; fileRef = 841E1C7D21A80EC6006F5C63 /* SBJson4Parser.m */; };
+		841E1C8821A80FA6006F5C63 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 841E1C8621A80FA6006F5C63 /* Reachability.m */; };
 		842B7DBE21A45D3500CD8BE3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 842B7DBD21A45D3500CD8BE3 /* AppDelegate.m */; };
 		842B7DC121A45D3500CD8BE3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 842B7DC021A45D3500CD8BE3 /* ViewController.m */; };
 		842B7DC321A45D3900CD8BE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 842B7DC221A45D3900CD8BE3 /* Assets.xcassets */; };
@@ -34,8 +32,6 @@
 		842B7DC921A45D3900CD8BE3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 842B7DC821A45D3900CD8BE3 /* main.m */; };
 		842B7DD421A45D3900CD8BE3 /* CubeAgentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 842B7DD321A45D3900CD8BE3 /* CubeAgentTests.m */; };
 		842B7DDF21A45D3900CD8BE3 /* CubeAgentUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 842B7DDE21A45D3900CD8BE3 /* CubeAgentUITests.m */; };
-		C229A708D87C736053DF079D /* libPods-CubeAgentTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A3AB7F53D1B86605942FE0A /* libPods-CubeAgentTests.a */; };
-		EF2DB286E9B09D69F0DE19ED /* libPods-CubeAgentUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 323F2DD0F6E058C29A5EF30B /* libPods-CubeAgentUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,13 +52,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		066334DFDD377A4B7D723B9F /* Pods-CubeAgentUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CubeAgentUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CubeAgentUITests/Pods-CubeAgentUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		0EA477160C46591C33F748F9 /* libPods-CubeAgent.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CubeAgent.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		323F2DD0F6E058C29A5EF30B /* libPods-CubeAgentUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CubeAgentUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4A3AB7F53D1B86605942FE0A /* libPods-CubeAgentTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CubeAgentTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5F4F79E5E7FD68C1AE5202DC /* Pods-CubeAgentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CubeAgentTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CubeAgentTests/Pods-CubeAgentTests.release.xcconfig"; sourceTree = "<group>"; };
-		7291C590AE66BFA0F5A614B4 /* Pods-CubeAgentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CubeAgentTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CubeAgentTests/Pods-CubeAgentTests.debug.xcconfig"; sourceTree = "<group>"; };
-		7528FD70540189AE12FA8894 /* Pods-CubeAgent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CubeAgent.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CubeAgent/Pods-CubeAgent.debug.xcconfig"; sourceTree = "<group>"; };
 		8400A02021A691D100453D0A /* CubeAgent-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CubeAgent-Bridging-Header.h"; sourceTree = "<group>"; };
 		8400A02121A691D100453D0A /* CubeAgent-Bridging-Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CubeAgent-Bridging-Header.swift"; sourceTree = "<group>"; };
 		840A40B121A52B16004D9E5B /* NSData+AES256.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+AES256.m"; sourceTree = "<group>"; };
@@ -74,23 +63,25 @@
 		840A40BC21A531DE004D9E5B /* SharedSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SharedSession.h; sourceTree = "<group>"; };
 		840A40BE21A535EC004D9E5B /* DownloadMetaDataJob.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadMetaDataJob.m; sourceTree = "<group>"; };
 		840A40BF21A535EC004D9E5B /* DownloadMetaDataJob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadMetaDataJob.h; sourceTree = "<group>"; };
-		840A410621A53725004D9E5B /* SBJson4Parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJson4Parser.h; sourceTree = "<group>"; };
-		840A410721A53725004D9E5B /* SBJson4StreamParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJson4StreamParser.m; sourceTree = "<group>"; };
-		840A410821A53725004D9E5B /* SBJson4StreamTokeniser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJson4StreamTokeniser.m; sourceTree = "<group>"; };
-		840A410921A53725004D9E5B /* SBJson4StreamParserState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJson4StreamParserState.m; sourceTree = "<group>"; };
-		840A410A21A53725004D9E5B /* SBJson4StreamWriterState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJson4StreamWriterState.m; sourceTree = "<group>"; };
-		840A410B21A53725004D9E5B /* SBJson4Writer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJson4Writer.m; sourceTree = "<group>"; };
-		840A410C21A53725004D9E5B /* SBJson4StreamWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJson4StreamWriter.h; sourceTree = "<group>"; };
-		840A410D21A53725004D9E5B /* SBJson4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJson4.h; sourceTree = "<group>"; };
-		840A410E21A53725004D9E5B /* SBJson4StreamParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJson4StreamParser.h; sourceTree = "<group>"; };
-		840A410F21A53725004D9E5B /* SBJson4Parser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJson4Parser.m; sourceTree = "<group>"; };
-		840A411021A53725004D9E5B /* SBJson4StreamParserState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJson4StreamParserState.h; sourceTree = "<group>"; };
-		840A411121A53725004D9E5B /* SBJson4StreamTokeniser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJson4StreamTokeniser.h; sourceTree = "<group>"; };
-		840A411221A53725004D9E5B /* SBJson4StreamWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJson4StreamWriter.m; sourceTree = "<group>"; };
-		840A411321A53725004D9E5B /* SBJson4Writer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJson4Writer.h; sourceTree = "<group>"; };
-		840A411421A53725004D9E5B /* SBJson4StreamWriterState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJson4StreamWriterState.h; sourceTree = "<group>"; };
-		840A415121A570F2004D9E5B /* Keychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Keychain.h; sourceTree = "<group>"; };
-		840A415221A570F2004D9E5B /* Keychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Keychain.m; sourceTree = "<group>"; };
+		841E1C4121A80D2B006F5C63 /* Keychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Keychain.h; sourceTree = "<group>"; };
+		841E1C4221A80D2B006F5C63 /* Keychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Keychain.m; sourceTree = "<group>"; };
+		841E1C6F21A80EC5006F5C63 /* SBJson4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJson4.h; sourceTree = "<group>"; };
+		841E1C7021A80EC5006F5C63 /* SBJson4Parser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJson4Parser.h; sourceTree = "<group>"; };
+		841E1C7121A80EC5006F5C63 /* SBJson4StreamWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJson4StreamWriter.m; sourceTree = "<group>"; };
+		841E1C7221A80EC5006F5C63 /* SBJson4StreamParserState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJson4StreamParserState.h; sourceTree = "<group>"; };
+		841E1C7321A80EC6006F5C63 /* SBJson4StreamTokeniser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJson4StreamTokeniser.h; sourceTree = "<group>"; };
+		841E1C7421A80EC6006F5C63 /* SBJson4StreamWriterState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJson4StreamWriterState.m; sourceTree = "<group>"; };
+		841E1C7521A80EC6006F5C63 /* SBJson4Writer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJson4Writer.h; sourceTree = "<group>"; };
+		841E1C7621A80EC6006F5C63 /* SBJson4StreamWriterState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJson4StreamWriterState.h; sourceTree = "<group>"; };
+		841E1C7721A80EC6006F5C63 /* SBJson4StreamTokeniser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJson4StreamTokeniser.m; sourceTree = "<group>"; };
+		841E1C7821A80EC6006F5C63 /* SBJson4Writer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJson4Writer.m; sourceTree = "<group>"; };
+		841E1C7921A80EC6006F5C63 /* SBJson4StreamParserState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJson4StreamParserState.m; sourceTree = "<group>"; };
+		841E1C7A21A80EC6006F5C63 /* SBJson4StreamParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJson4StreamParser.h; sourceTree = "<group>"; };
+		841E1C7B21A80EC6006F5C63 /* SBJson4StreamParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJson4StreamParser.m; sourceTree = "<group>"; };
+		841E1C7C21A80EC6006F5C63 /* SBJson4StreamWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJson4StreamWriter.h; sourceTree = "<group>"; };
+		841E1C7D21A80EC6006F5C63 /* SBJson4Parser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJson4Parser.m; sourceTree = "<group>"; };
+		841E1C8621A80FA6006F5C63 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		841E1C8721A80FA6006F5C63 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		842B7DB921A45D3500CD8BE3 /* CubeAgent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CubeAgent.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		842B7DBC21A45D3500CD8BE3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		842B7DBD21A45D3500CD8BE3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -107,8 +98,6 @@
 		842B7DDA21A45D3900CD8BE3 /* CubeAgentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CubeAgentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		842B7DDE21A45D3900CD8BE3 /* CubeAgentUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CubeAgentUITests.m; sourceTree = "<group>"; };
 		842B7DE021A45D3900CD8BE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		967001DE6AC5D9DCB3C79764 /* Pods-CubeAgentUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CubeAgentUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CubeAgentUITests/Pods-CubeAgentUITests.release.xcconfig"; sourceTree = "<group>"; };
-		F14A4A4EF3929F56F23D7BB6 /* Pods-CubeAgent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CubeAgent.release.xcconfig"; path = "Pods/Target Support Files/Pods-CubeAgent/Pods-CubeAgent.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,7 +105,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77DB1E920EDACF396C5B10B3 /* libPods-CubeAgent.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,7 +112,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C229A708D87C736053DF079D /* libPods-CubeAgentTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,23 +119,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF2DB286E9B09D69F0DE19ED /* libPods-CubeAgentUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		78979A7D46E939EFF80907D8 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				0EA477160C46591C33F748F9 /* libPods-CubeAgent.a */,
-				4A3AB7F53D1B86605942FE0A /* libPods-CubeAgentTests.a */,
-				323F2DD0F6E058C29A5EF30B /* libPods-CubeAgentUITests.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		840A40B021A52B16004D9E5B /* Categories */ = {
 			isa = PBXGroup;
 			children = (
@@ -179,47 +155,55 @@
 			path = Constant;
 			sourceTree = "<group>";
 		};
-		840A40C121A53725004D9E5B /* Libraries */ = {
+		841E1BFB21A80D2A006F5C63 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
-				840A415021A570F2004D9E5B /* KeyChain */,
-				840A410521A53725004D9E5B /* SBJson */,
+				841E1C8521A80FA6006F5C63 /* Reachability */,
+				841E1C3F21A80D2B006F5C63 /* SBJson */,
+				841E1C4021A80D2B006F5C63 /* KeyChain */,
 			);
-			name = Libraries;
-			path = "../../../Users/admin/Documents/Cube_AppStore_Version_Build/Cube_1.0.6/cube-master 2__16-aug/Cube/Libraries";
+			path = Libraries;
 			sourceTree = "<group>";
 		};
-		840A410521A53725004D9E5B /* SBJson */ = {
+		841E1C3F21A80D2B006F5C63 /* SBJson */ = {
 			isa = PBXGroup;
 			children = (
-				840A410621A53725004D9E5B /* SBJson4Parser.h */,
-				840A410721A53725004D9E5B /* SBJson4StreamParser.m */,
-				840A410821A53725004D9E5B /* SBJson4StreamTokeniser.m */,
-				840A410921A53725004D9E5B /* SBJson4StreamParserState.m */,
-				840A410A21A53725004D9E5B /* SBJson4StreamWriterState.m */,
-				840A410B21A53725004D9E5B /* SBJson4Writer.m */,
-				840A410C21A53725004D9E5B /* SBJson4StreamWriter.h */,
-				840A410D21A53725004D9E5B /* SBJson4.h */,
-				840A410E21A53725004D9E5B /* SBJson4StreamParser.h */,
-				840A410F21A53725004D9E5B /* SBJson4Parser.m */,
-				840A411021A53725004D9E5B /* SBJson4StreamParserState.h */,
-				840A411121A53725004D9E5B /* SBJson4StreamTokeniser.h */,
-				840A411221A53725004D9E5B /* SBJson4StreamWriter.m */,
-				840A411321A53725004D9E5B /* SBJson4Writer.h */,
-				840A411421A53725004D9E5B /* SBJson4StreamWriterState.h */,
+				841E1C6F21A80EC5006F5C63 /* SBJson4.h */,
+				841E1C7021A80EC5006F5C63 /* SBJson4Parser.h */,
+				841E1C7D21A80EC6006F5C63 /* SBJson4Parser.m */,
+				841E1C7A21A80EC6006F5C63 /* SBJson4StreamParser.h */,
+				841E1C7B21A80EC6006F5C63 /* SBJson4StreamParser.m */,
+				841E1C7221A80EC5006F5C63 /* SBJson4StreamParserState.h */,
+				841E1C7921A80EC6006F5C63 /* SBJson4StreamParserState.m */,
+				841E1C7321A80EC6006F5C63 /* SBJson4StreamTokeniser.h */,
+				841E1C7721A80EC6006F5C63 /* SBJson4StreamTokeniser.m */,
+				841E1C7C21A80EC6006F5C63 /* SBJson4StreamWriter.h */,
+				841E1C7121A80EC5006F5C63 /* SBJson4StreamWriter.m */,
+				841E1C7621A80EC6006F5C63 /* SBJson4StreamWriterState.h */,
+				841E1C7421A80EC6006F5C63 /* SBJson4StreamWriterState.m */,
+				841E1C7521A80EC6006F5C63 /* SBJson4Writer.h */,
+				841E1C7821A80EC6006F5C63 /* SBJson4Writer.m */,
 			);
 			path = SBJson;
 			sourceTree = "<group>";
 		};
-		840A415021A570F2004D9E5B /* KeyChain */ = {
+		841E1C4021A80D2B006F5C63 /* KeyChain */ = {
 			isa = PBXGroup;
 			children = (
-				840A415121A570F2004D9E5B /* Keychain.h */,
-				840A415221A570F2004D9E5B /* Keychain.m */,
+				841E1C4121A80D2B006F5C63 /* Keychain.h */,
+				841E1C4221A80D2B006F5C63 /* Keychain.m */,
 			);
-			name = KeyChain;
-			path = CubeAgent/Libraries/KeyChain;
-			sourceTree = SOURCE_ROOT;
+			path = KeyChain;
+			sourceTree = "<group>";
+		};
+		841E1C8521A80FA6006F5C63 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				841E1C8621A80FA6006F5C63 /* Reachability.m */,
+				841E1C8721A80FA6006F5C63 /* Reachability.h */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
 		};
 		842B7DB021A45D3500CD8BE3 = {
 			isa = PBXGroup;
@@ -229,8 +213,6 @@
 				842B7DD221A45D3900CD8BE3 /* CubeAgentTests */,
 				842B7DDD21A45D3900CD8BE3 /* CubeAgentUITests */,
 				842B7DBA21A45D3500CD8BE3 /* Products */,
-				C752526FA23CDF0FA522BEBA /* Pods */,
-				78979A7D46E939EFF80907D8 /* Frameworks */,
 				8400A02021A691D100453D0A /* CubeAgent-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
@@ -252,7 +234,7 @@
 				842B7DBD21A45D3500CD8BE3 /* AppDelegate.m */,
 				842B7DBF21A45D3500CD8BE3 /* ViewController.h */,
 				842B7DC021A45D3500CD8BE3 /* ViewController.m */,
-				840A40C121A53725004D9E5B /* Libraries */,
+				841E1BFB21A80D2A006F5C63 /* Libraries */,
 				840A40B821A52FEE004D9E5B /* Constant */,
 				840A40B421A52E7C004D9E5B /* APIManager */,
 				840A40B021A52B16004D9E5B /* Categories */,
@@ -283,19 +265,6 @@
 			path = CubeAgentUITests;
 			sourceTree = "<group>";
 		};
-		C752526FA23CDF0FA522BEBA /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				7528FD70540189AE12FA8894 /* Pods-CubeAgent.debug.xcconfig */,
-				F14A4A4EF3929F56F23D7BB6 /* Pods-CubeAgent.release.xcconfig */,
-				7291C590AE66BFA0F5A614B4 /* Pods-CubeAgentTests.debug.xcconfig */,
-				5F4F79E5E7FD68C1AE5202DC /* Pods-CubeAgentTests.release.xcconfig */,
-				066334DFDD377A4B7D723B9F /* Pods-CubeAgentUITests.debug.xcconfig */,
-				967001DE6AC5D9DCB3C79764 /* Pods-CubeAgentUITests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -303,7 +272,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 842B7DE321A45D3900CD8BE3 /* Build configuration list for PBXNativeTarget "CubeAgent" */;
 			buildPhases = (
-				92F9E4A1AFD6628097AE269D /* [CP] Check Pods Manifest.lock */,
 				842B7DB521A45D3500CD8BE3 /* Sources */,
 				842B7DB621A45D3500CD8BE3 /* Frameworks */,
 				842B7DB721A45D3500CD8BE3 /* Resources */,
@@ -321,7 +289,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 842B7DE621A45D3900CD8BE3 /* Build configuration list for PBXNativeTarget "CubeAgentTests" */;
 			buildPhases = (
-				99B84D4AFA7F72E1BD7CDAB1 /* [CP] Check Pods Manifest.lock */,
 				842B7DCB21A45D3900CD8BE3 /* Sources */,
 				842B7DCC21A45D3900CD8BE3 /* Frameworks */,
 				842B7DCD21A45D3900CD8BE3 /* Resources */,
@@ -340,7 +307,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 842B7DE921A45D3900CD8BE3 /* Build configuration list for PBXNativeTarget "CubeAgentUITests" */;
 			buildPhases = (
-				6F875FC224705B7FC296D14C /* [CP] Check Pods Manifest.lock */,
 				842B7DD621A45D3900CD8BE3 /* Sources */,
 				842B7DD721A45D3900CD8BE3 /* Frameworks */,
 				842B7DD821A45D3900CD8BE3 /* Resources */,
@@ -424,102 +390,32 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		6F875FC224705B7FC296D14C /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CubeAgentUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		92F9E4A1AFD6628097AE269D /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CubeAgent-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		99B84D4AFA7F72E1BD7CDAB1 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CubeAgentTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		842B7DB521A45D3500CD8BE3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				840A415421A5710C004D9E5B /* Keychain.h in Sources */,
 				840A414F21A57087004D9E5B /* APIManager.m in Sources */,
 				840A414E21A57040004D9E5B /* DownloadMetaDataJob.h in Sources */,
 				840A414D21A5702B004D9E5B /* SharedSession.h in Sources */,
+				841E1C6D21A80D2B006F5C63 /* Keychain.m in Sources */,
 				840A414C21A56F36004D9E5B /* APIManager.h in Sources */,
-				840A414B21A5387A004D9E5B /* SBJson4.h in Sources */,
-				840A414721A53725004D9E5B /* SBJson4Parser.m in Sources */,
 				840A40BA21A53190004D9E5B /* Constants.h in Sources */,
+				841E1C8021A80EC6006F5C63 /* SBJson4StreamTokeniser.m in Sources */,
 				842B7DC121A45D3500CD8BE3 /* ViewController.m in Sources */,
+				841E1C8121A80EC6006F5C63 /* SBJson4Writer.m in Sources */,
 				840A40BD21A531DE004D9E5B /* SharedSession.m in Sources */,
-				840A415321A570F2004D9E5B /* Keychain.m in Sources */,
-				840A414421A53725004D9E5B /* SBJson4StreamParserState.m in Sources */,
+				841E1C8421A80EC6006F5C63 /* SBJson4Parser.m in Sources */,
 				842B7DC921A45D3900CD8BE3 /* main.m in Sources */,
-				840A414821A53725004D9E5B /* SBJson4StreamWriter.m in Sources */,
-				840A414621A53725004D9E5B /* SBJson4Writer.m in Sources */,
 				840A40C021A535EC004D9E5B /* DownloadMetaDataJob.m in Sources */,
+				841E1C7E21A80EC6006F5C63 /* SBJson4StreamWriter.m in Sources */,
 				840A40B321A52B16004D9E5B /* NSData+AES256.m in Sources */,
-				840A414321A53725004D9E5B /* SBJson4StreamTokeniser.m in Sources */,
-				840A414221A53725004D9E5B /* SBJson4StreamParser.m in Sources */,
+				841E1C7F21A80EC6006F5C63 /* SBJson4StreamWriterState.m in Sources */,
 				8400A02221A691D100453D0A /* CubeAgent-Bridging-Header.swift in Sources */,
+				841E1C8821A80FA6006F5C63 /* Reachability.m in Sources */,
 				842B7DBE21A45D3500CD8BE3 /* AppDelegate.m in Sources */,
-				840A414521A53725004D9E5B /* SBJson4StreamWriterState.m in Sources */,
+				841E1C8221A80EC6006F5C63 /* SBJson4StreamParserState.m in Sources */,
+				841E1C8321A80EC6006F5C63 /* SBJson4StreamParser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -681,7 +577,6 @@
 		};
 		842B7DE421A45D3900CD8BE3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7528FD70540189AE12FA8894 /* Pods-CubeAgent.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -704,7 +599,6 @@
 		};
 		842B7DE521A45D3900CD8BE3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F14A4A4EF3929F56F23D7BB6 /* Pods-CubeAgent.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -726,7 +620,6 @@
 		};
 		842B7DE721A45D3900CD8BE3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7291C590AE66BFA0F5A614B4 /* Pods-CubeAgentTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -747,7 +640,6 @@
 		};
 		842B7DE821A45D3900CD8BE3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5F4F79E5E7FD68C1AE5202DC /* Pods-CubeAgentTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -768,7 +660,6 @@
 		};
 		842B7DEA21A45D3900CD8BE3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 066334DFDD377A4B7D723B9F /* Pods-CubeAgentUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -788,7 +679,6 @@
 		};
 		842B7DEB21A45D3900CD8BE3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 967001DE6AC5D9DCB3C79764 /* Pods-CubeAgentUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

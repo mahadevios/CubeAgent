@@ -19,7 +19,6 @@ depends-external:
 - "/Users/admin/Downloads/Xcode 3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
 - "/Users/admin/Downloads/Xcode 3.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
 - "/Work/CubeAgent/CubeAgent-Bridging-Header.h"
-- "/Work/CubeAgent/Build/Products/Debug/CryptoSwift/CryptoSwift.modulemap"
 - "/Users/admin/Downloads/Xcode 3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/objc/ObjectiveC.apinotes"
 - "/Users/admin/Downloads/Xcode 3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/usr/include/Darwin.apinotes"
 - "/Users/admin/Downloads/Xcode 3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
@@ -27,4 +26,4 @@ depends-external:
 - "/Users/admin/Downloads/Xcode 3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
 - "/Users/admin/Downloads/Xcode 3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Users/admin/Downloads/Xcode 3.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "83de9d41026e8698523abbfabb6e5ea8"
+interface-hash: "5bf39d8b5f0094ca83c744a0da4fb204"
